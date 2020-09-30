@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int glo=6;
+void sum(){
+    cout<<glo;
+
+}
+int main(){ 
+  int glo=78;
+
+cout<<glo;
+sum();
+return 0;
+
+
+}
