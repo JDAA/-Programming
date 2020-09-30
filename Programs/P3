@@ -1,7 +1,8 @@
 #include<iostream>
 using namespace std;
 int g(int , int );
-
+int f(int , int);
+int h(int, int );
 int main(){
     int a,b;
     cout<<"Enter 2 numbers";
@@ -12,4 +13,10 @@ cout<<g(a,b);
 int g(int x, int y){
     return(x+y);
     
+}
+int f(int x, int y){
+return(x-y);
+}
+int h(int x, int y){
+return(x*y);
 }
